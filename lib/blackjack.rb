@@ -60,7 +60,8 @@ end
 def runner
   welcome
   
-  until display_card_total(hit?(initial_round)) > 21
+  until display_card_total(hit?(initial_round)) < 21
+    
   end
   
   
