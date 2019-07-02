@@ -1,7 +1,3 @@
-require_relative "./spec_helper.rb"
-require_relative "../lib/blackjack.rb"
-require_relative "../lib/runner.rb"
-
 
 describe "#welcome" do
   it "prints a welcome message to screen" do
